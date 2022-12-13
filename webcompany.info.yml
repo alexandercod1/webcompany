@@ -1,4 +1,4 @@
-name: Bootstrap Barrio Subtheme
+name: webcompany
 type: theme
 description: 'Basic structure for a Bootstrap Barrio SubTheme.'
 core: 8.x
@@ -6,8 +6,8 @@ core_version_requirement: ^8 || ^9 || ^10
 base theme: bootstrap_barrio
 
 libraries:
-  - bootstrap_barrio_subtheme/bootstrap_cdn
-  - bootstrap_barrio_subtheme/global-styling
+  - webcompany/bootstrap_cdn
+  - webcompany/global-styling
 
 regions:
   top_header: 'Top header'
@@ -32,8 +32,3 @@ regions:
   footer_third: 'Footer third'
   footer_fourth: 'Footer fourth'
   footer_fifth: 'Footer fifth'
-
-# Information added by Drupal.org packaging script on 2022-08-17
-version: '5.5.6'
-project: 'bootstrap_barrio'
-datestamp: 1660747465
